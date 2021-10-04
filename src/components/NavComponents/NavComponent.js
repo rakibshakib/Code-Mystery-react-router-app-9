@@ -34,7 +34,7 @@ const NavComponent = () => {
                     <button onClick={handleToggle} className='text-2xl toggle'><FaBars /></button>
                 </div>
                 {
-                    toggle ? <div className='nav-link custom-bg'>
+                    toggle ? <div className='nav-link custom-bg '>
                         <NavLink className='nav-option' to='/home'><BiHomeCircle /> <span>Home</span></NavLink>
                         <NavLink className='nav-option nav-option2' to='/service'><GiOpenBook /> <span>Service</span></NavLink>
                         <NavLink className='nav-option nav-option2' to='/about-us'><HiOutlineUserGroup /><span>About Us</span></NavLink>
