@@ -6,6 +6,7 @@ import Course from '../Course/Course'
 import './Courses.css'
 
 const Courses = () => {
+    // get data from custom hook 
     const [courseData] = useCourse();
     return (
         <div className='container mx-auto'>

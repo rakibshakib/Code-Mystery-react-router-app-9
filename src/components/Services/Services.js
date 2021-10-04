@@ -3,6 +3,7 @@ import useCourse from '../../Hooks/UseCourse/useCourse';
 import ServiceData from '../ServiceData/ServiceData';
 
 const Services = () => {
+    // get data from customs hook 
     const [courseData] = useCourse();
 
     return (

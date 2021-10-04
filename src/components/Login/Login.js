@@ -3,6 +3,7 @@ import './Login.css'
 
 const Login = () => {
     return (
+        // simple login page 
         <div className='container mx-auto my-8'>
             <h2 className='text-center py-5 text-3xl font-bold text-red-500'>Login Form</h2>
             <div className='flex item-center justify-center	 content-center items-center'>

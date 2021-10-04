@@ -2,6 +2,7 @@ import React from 'react'
 
 const NotFound = () => {
     return (
+        // data not found components 
         <div className='container mx-auto my-16'>
             <h2 className="text-center  text-3xl md:text-4xl lg:text-8xl mt-12 font-bold text-red-500">
                 OoOps!

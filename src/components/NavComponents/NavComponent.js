@@ -6,8 +6,12 @@ import { HiOutlineUserGroup } from "react-icons/hi";
 import { FaBars } from "react-icons/fa";
 import './NavComponents.css'
 import img from '../../images/brandImage.png'
+
+
 const NavComponent = () => {
+    // button toogle hooks 
     const [toggle, setToogle] = useState(false);
+    // toogle button handeler 
     const handleToggle = () => {
         setToogle(toggle => !toggle)
     }

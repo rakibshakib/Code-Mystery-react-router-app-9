@@ -11,6 +11,7 @@ const Banner = () => {
                 <p className='text-sm font-medium mt-5'>From scratch, this course will easily swallow everything you need to become a professional web developer without any prior experience.</p>
             </div>
             <div>
+                {/* banner image  */}
                 <img className=' p-5' src={bannerImg} alt="" />
             </div>
         </div>

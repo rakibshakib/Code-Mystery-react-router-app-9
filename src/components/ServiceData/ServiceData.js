@@ -1,9 +1,11 @@
 import React from 'react'
 
 const ServiceData = (props) => {
+    // destructuring data 
     const { course_name, image, inctructor, deadline, videos, payment} = props.course
     return (
         <div>
+            {/* single service data component  */}
             <div className="card p-5 m-5">
                 <figure className='card-img'>
                     <img src={image} alt="" />

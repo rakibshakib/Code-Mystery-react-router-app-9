@@ -14,6 +14,7 @@ import Login from './components/Login/Login';
 function App() {
   return (
     <div className="App">
+      {/* setting route in app components  */}
      <Router>
         <NavComponent></NavComponent>
         <Switch>

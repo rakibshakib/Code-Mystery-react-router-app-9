@@ -3,7 +3,7 @@ import './Footer.css';
 import img from '../../images/white.png';
 import google from '../../images/googlePlay.png'
 
-
+// simple footer 
 const Footer = () => {
     return (
         <div className="footer mt-5">
