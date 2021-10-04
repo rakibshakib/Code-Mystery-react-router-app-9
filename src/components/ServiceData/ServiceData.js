@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ServiceData = (props) => {
-    const { course_name, image, inctructor, deadline, videos } = props.course
+    const { course_name, image, inctructor, deadline, videos, payment} = props.course
     return (
         <div>
             <div className="card p-5 m-5">
@@ -13,6 +13,7 @@ const ServiceData = (props) => {
                     <p>Inctructor: {inctructor}</p>
                     <p>Deadline: {deadline}</p>
                     <p>Total Video in This Course: {videos}</p>
+                    <p>Course Fee: {payment} BDT</p>
                     <button className='px-2 rounded bg-green-500 text-white my-2'>Enroll Now</button>
                     <button className='px-2 rounded bg-yellow-300 text-black ml-2 my-2'>See Outline</button>
                 </div>

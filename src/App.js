@@ -8,6 +8,8 @@ import Courses from './components/Courses/Courses';
 import NotFound from './components/NotFound/NotFound';
 import Footer from './components/Footer/Footer';
 import Services from './components/Services/Services';
+import AboutUs from './components/AboutUS/AboutUs';
+import Login from './components/Login/Login';
 
 function App() {
   return (
@@ -18,11 +20,17 @@ function App() {
           <Route exact path='/'>
               <Courses></Courses>
           </Route>
-          <Route path='/home'>
+          <Route exact path='/home'>
               <Courses></Courses>
           </Route>
-          <Route path='/service'>
+          <Route exact path='/service'>
               <Services></Services>
+          </Route>
+          <Route exact path='/about-us'>
+              <AboutUs></AboutUs>
+          </Route>
+          <Route exact path='/login'>
+              <Login></Login>
           </Route>
           <Route path='*'>
               <NotFound></NotFound>

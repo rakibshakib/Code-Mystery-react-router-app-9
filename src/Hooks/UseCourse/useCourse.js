@@ -3,10 +3,10 @@ import { useState } from "react";
 
 const useCourse = () => {
     const [courseData, setCourseData] = useState([]);
-    useEffect(()=>{
+    useEffect(() => {
         fetch('./edu.json')
-        .then(res=>res.json())
-        .then(data=>setCourseData(data))
+            .then(res => res.json())
+            .then(data => setCourseData(data))
     }, [])
     return [courseData]
 }

@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div className="footer mt-5">
             <div className='container mx-auto py-6'>
-                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 justify-items-center text-gray-300 py-5'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-items-center text-gray-300 py-5'>
                     <div className='leading-relaxed footer-text text-center md:text-left'>
                         <figure>
                             <img src={img} alt="" />
