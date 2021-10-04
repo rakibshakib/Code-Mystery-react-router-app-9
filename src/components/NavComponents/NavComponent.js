@@ -9,7 +9,7 @@ import img from '../../images/brandImage.png'
 const NavComponent = () => {
     const [toggle, setToogle] = useState(false);
     const handleToggle = () => {
-        setToogle(toggle=> !toggle)
+        setToogle(toggle => !toggle)
     }
     return (
         <>
@@ -33,14 +33,12 @@ const NavComponent = () => {
                     </div>
                     <button onClick={handleToggle} className='text-2xl toggle'><FaBars /></button>
                 </div>
-                {
-                    toggle ? <div className='nav-link custom-bg '>
-                        <NavLink className='nav-option' to='/home'><BiHomeCircle /> <span>Home</span></NavLink>
-                        <NavLink className='nav-option nav-option2' to='/service'><GiOpenBook /> <span>Service</span></NavLink>
-                        <NavLink className='nav-option nav-option2' to='/about-us'><HiOutlineUserGroup /><span>About Us</span></NavLink>
-                        <NavLink className='nav-option nav-option2' to='/login'><BiLogInCircle /> <span>Login</span></NavLink>
-                    </div> : null
-                }
+                <div className={`nav-link custom-bg responsive-nav ${toggle ? 'show-navs' : 'hide-navs'} `}>
+                    <NavLink className='nav-option' to='/home'><BiHomeCircle /> <span>Home</span></NavLink>
+                    <NavLink className='nav-option nav-option2' to='/service'><GiOpenBook /> <span>Service</span></NavLink>
+                    <NavLink className='nav-option nav-option2' to='/about-us'><HiOutlineUserGroup /><span>About Us</span></NavLink>
+                    <NavLink className='nav-option nav-option2' to='/login'><BiLogInCircle /> <span>Login</span></NavLink>
+                </div>
 
             </nav>
         </>
