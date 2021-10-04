@@ -7,7 +7,7 @@ const Services = () => {
 
     return (
         <div className='container mx-auto'>
-            <h2 className='text-red-500 text-xl my-2'>See Our All Courses: {courseData.length}</h2>
+            <h2 className='text-red-500 font-medium	 text-xl lg:text-2xl mt-5 '>See Our All Courses: {courseData.length}</h2>
             {
                 courseData.length === 0 ? <button type="button" className="bg-rose-600" disabled>
                 <svg className="animate-spin h-5 w-5 mr-3" viewBox="0 0 24 24">

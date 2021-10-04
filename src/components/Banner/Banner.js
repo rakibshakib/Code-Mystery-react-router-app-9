@@ -8,7 +8,7 @@ const Banner = () => {
             <div className='ml-2'>
                 <h2 className='text-3xl md:text-4xl lg:text-6xl font-semibold my-3'>Be A Professional <span className='text-red-500'>Programmer!</span></h2>
                 <p className='text-2xl md:text-3xl lg:text-4xl font-semibold my-2'>with <span className='text-red-500'>Code Mystery</span></p>
-                <p className='text-sm mt-5'>From scratch, this course will easily swallow everything you need to become a professional web developer without any prior experience.</p>
+                <p className='text-sm font-medium mt-5'>From scratch, this course will easily swallow everything you need to become a professional web developer without any prior experience.</p>
             </div>
             <div>
                 <img className=' p-5' src={bannerImg} alt="" />

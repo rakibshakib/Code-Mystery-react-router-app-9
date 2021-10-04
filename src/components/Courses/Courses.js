@@ -26,7 +26,7 @@ const Courses = () => {
                     </div>
             }
 
-            <h2 className='text-center border md:w-2/5 py-1 bg-red-500 text-white font-semibold rounded mx-auto'><Link to='/service'>See All Courses</Link></h2>
+            <h2 className='hover:bg-gray-700 hover:text-white text-center border md:w-2/5 py-1 bg-red-500 text-white font-semibold rounded-md mx-auto'><Link to='/service'>See All Courses</Link></h2>
 
 
         </div>

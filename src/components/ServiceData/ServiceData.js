@@ -14,8 +14,8 @@ const ServiceData = (props) => {
                     <p>Deadline: {deadline}</p>
                     <p>Total Video in This Course: {videos}</p>
                     <p>Course Fee: {payment} BDT</p>
-                    <button className='px-2 rounded bg-green-500 text-white my-2'>Enroll Now</button>
-                    <button className='px-2 rounded bg-yellow-300 text-black ml-2 my-2'>See Outline</button>
+                    <button className='px-2 rounded bg-green-500 text-white my-2 hover:bg-green-600'>Enroll Now</button>
+                    <button className='px-2 rounded bg-yellow-300 text-black ml-2 my-2 hover:bg-yellow-400'>See Outline</button>
                 </div>
             </div>
         </div>
