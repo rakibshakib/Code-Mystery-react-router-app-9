@@ -1,0 +1,9 @@
+.footer{
+    background: linear-gradient(
+        180deg,#363643,#110e17);
+}
+.footer-text p:hover,
+.footer-text h2:hover{
+    color: #fff;
+    cursor: pointer;
+}
